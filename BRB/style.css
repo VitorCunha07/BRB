@@ -1,0 +1,34 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+}
+
+h1 {
+    color: red;
+    position: absolute;
+    top: 20px; 
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 70px;
+}
+
+.botao-centralizado {
+    background-color: red;
+    color: white;
+    padding: 15px 30px; 
+    border: 2px solid black; 
+    border-radius: 50%;
+    font-family: Arial, sans-serif; 
+    font-size: 60px;
+    cursor: pointer;
+    box-sizing: border-box; 
+}
+
+.botao-centralizado:hover {
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.2);
+    transform: translateY(-5px);
+}
